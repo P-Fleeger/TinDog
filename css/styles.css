@@ -1,0 +1,184 @@
+/* Main */
+
+body {
+    font-family: "Montserrat";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat';
+}
+
+.bigHead {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.testimonialText {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+.featureText {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Buttons */
+
+.downloadButton {
+    margin: 5% 3% 5% 0;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+
+/* Title  */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.titleImage {
+    transform: rotate(25deg);
+    position: absolute;
+    width: 20%;
+    right: 23%;
+}
+
+/* Media Query for picture */
+
+@media (max-width: 990px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .titleImage {
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+}
+
+/* Features */
+
+#features {
+    background-color: white;
+    padding: 7% 12% 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 75px;
+    margin-bottom: 1rem;
+}
+
+.logo:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%
+}
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+.pricingCards {
+    padding: 3% 2%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+.testimonialImage {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.pressLogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Call to action */
+
+#cta {
+    font-family: "Ubuntu";
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    color: #8f8f8f;
+    font-size: .75rem;
+    
+}
+
+.links {
+    padding-bottom: 20px;
+}
+
+.socialLinks {
+    margin: 20px 10px;
+}
